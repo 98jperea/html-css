@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Landing Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta-button {
+            background-color: #007bff;
+            color: white;
+            font-size: 18px;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        .form-section {
+            background-color: #f1f1f1;
+            padding: 60px 0;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .footer a {
+            color: #ddd;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sección Hero -->
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="display-4">¡Bienvenido a Mi Sitio Web!</h1>
+            <p class="lead">Suscríbete para obtener ofertas exclusivas y actualizaciones.</p>
+            <a href="#form" class="cta-button">Únete Ahora</a>
+        </div>
+    </section>
+
+    <!-- Sección de Formulario -->
+    <section id="form" class="form-section">
+        <div class="container">
+            <h2 class="text-center mb-4">Suscríbete a nuestro boletín</h2>
+            <form action="#" method="POST">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Tu Nombre</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Tu Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Suscribirse</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+        <p><a href="#">Política de Privacidad</a> | <a href="#">Términos de Servicio</a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
